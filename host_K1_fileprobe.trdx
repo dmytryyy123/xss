@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.telerik.com/reporting/2020/1.0" Name="Sub" Width="6in" DataSourceName="ods">
+  <DataSources>
+    <ObjectDataSource Name="ods" DataObject="System.IO.File, mscorlib" DataMember="ReadAllText">
+      <Parameters>
+        <ObjectDataSourceParameter Name="path" Type="System.String" Value="Z:\MARKER_ODS_INVOKE_9x8y7z.txt" />
+      </Parameters>
+    </ObjectDataSource>
+  </DataSources>
+  <Items><DetailSection Name="d" Height="0.3in"><Items><TextBox Name="tb" Value="=Fields.X" SizeF="6in,0.2in" LocationF="0in,0in" /></Items></DetailSection></Items>
+</Report>
