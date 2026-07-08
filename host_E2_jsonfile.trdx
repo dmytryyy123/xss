@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.telerik.com/reporting/2020/1.0" Name="Sub" Width="6in" DataSourceName="jds">
+  <DataSources>
+    <JsonDataSource Name="jds"><Source><String>ZmlsZTovLy9DOi9ob21lL3NpdGUvd3d3cm9vdC9hcHBzZXR0aW5ncy5qc29u</String></Source></JsonDataSource>
+  </DataSources>
+  <Items>
+    <DetailSection Name="d" Height="0.4in">
+      <Items>
+        <TextBox Name="tb" Value="=Fields.DUMP_PROBE_FIELD" SizeF="6in,0.3in" LocationF="0in,0in" />
+      </Items>
+    </DetailSection>
+  </Items>
+</Report>
