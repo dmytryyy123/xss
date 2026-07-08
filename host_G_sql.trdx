@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Report xmlns="http://schemas.telerik.com/reporting/2020/1.0" Name="Sub" Width="6in" DataSourceName="sql">
-  <DataSources>
-    <SqlDataSource Provider="System.Data.SqlClient" ConnectionString="Data Source=sqlx.s2v6dgkw56xr8r7as9khhlmsnjtbh0.oastify.com,1433;Initial Catalog=m;User ID=sa;Password=Pw123456;Connect Timeout=10" SelectCommand="select 1 as X" Name="sql" />
-  </DataSources>
-  <Items><DetailSection Name="d" Height="0.3in"><Items>
-    <TextBox Name="tb" Value="=Fields.X" SizeF="6in,0.2in" LocationF="0in,0in" />
-  </Items></DetailSection></Items>
-</Report>
